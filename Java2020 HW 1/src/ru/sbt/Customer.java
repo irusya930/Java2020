@@ -10,8 +10,6 @@ public class Customer {
         this.lastName = lastName;
     }
 
-
-
     /**
      * Opens account for a customer (creates Account and sets it to field "account").
      * Customer can't have greater than one opened account.
@@ -19,15 +17,12 @@ public class Customer {
      * @param accountId id of the account
      * @return true if account hasn't already created, otherwise returns false and prints "Customer fullName() already has the active account"
      */
-
     public boolean openAccount(long accountId) {
         if (this.account != null){
-            System.out.println(String.format("Customer %s already has the active account", fullName()));
+            System.out.printf("Customer %s already has the active account%n", fullName());
             return false;
         }
-        else {
-            this.account = new Account(accountId);
-        }
+        this.account = new Account(accountId);
         return true;
     }
 
@@ -36,15 +31,12 @@ public class Customer {
      *
      * @return false if account is already null and prints "Customer fullName() has no active account to close", otherwise sets account to null and returns true
      */
-
     public boolean closeAccount() {
         if (this.account == null){
-            System.out.println(String.format("Customer %s has no active account to close", fullName()));
+            System.out.printf("Customer %s has no active account to close%n", fullName());
             return false;
         }
-        else {
-            this.account = null;
-        }
+        this.account = null;
         return true;
     }
 
@@ -63,10 +55,9 @@ public class Customer {
      */
     public boolean withdrawFromCurrentAccount(double amount) {
         if (this.account == null){
-            System.out.println(String.format("Customer %s has no active account", fullName()));
+            System.out.printf("Customer %s has no active account%n", fullName());
             return false;
         }
-
         return account.withdraw(amount);
     }
 
@@ -77,12 +68,10 @@ public class Customer {
      */
     public boolean addMoneyToCurrentAccount(double amount) {
         if (this.account == null){
-            System.out.println(String.format("Customer %s has no active account", fullName()));
+            System.out.printf("Customer %s has no active account%n", fullName());
             return false;
         }
-
         return account.add(amount);
     }
-
 }
 

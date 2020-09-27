@@ -5,7 +5,6 @@ public class Account {
     private double balance;
 
     public Account(long id) {
-
         this.id = id;
         this.balance = 0;
     }
@@ -19,16 +18,12 @@ public class Account {
      * otherwise returns false
      */
     public boolean withdraw(double amount) {
-        if (this.balance <= amount){
-            return false;
-        }
-        else if (amount < 0){
+        if (this.balance <= amount){ return false; }
+        if (amount < 0){
             System.out.println("Invalid value!");
             return false;
         }
-        else {
-            this.balance -= amount;
-        }
+        this.balance -= amount;
         return true;
     }
 
@@ -43,9 +38,7 @@ public class Account {
             System.out.println("Invalid value!");
             return false;
         }
-        else {
             balance += amount;
-        }
         return true;
     }
 }

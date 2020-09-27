@@ -20,11 +20,25 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:hw1" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16ee6fbd-2073-4d88-beed-02043f3be3df" name="Default Changelist" comment="Initial hw1 commit" />
+    <list default="true" id="16ee6fbd-2073-4d88-beed-02043f3be3df" name="Default Changelist" comment="Initial hw1 commit">
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/AddMoneyToCurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/CloseAccount_whenAccountExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/CloseAccount_whenAccountNotExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/FullName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/OpenAccount_whenAccountExists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/OpenAccount_whenAccountNotExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/WithdrawFromCurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java2020 HW 1/src/ru/sbt/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java2020 HW 1/src/ru/sbt/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java2020 HW 1/src/ru/sbt/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java2020 HW 1/src/ru/sbt/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java2020 HW 1/test/ru/sbt/CustomerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +47,13 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,13 +61,109 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1hzlKwCZChsFasRmwGDP5j1XwNU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.sbt" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in Java2020">
+    <configuration name="All in Java2020" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.FullName" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FullName.fullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.sbt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.sbt" />
+      <option name="MAIN_CLASS_NAME" value="ru.sbt.FullName" />
+      <option name="METHOD_NAME" value="fullName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in Java2020" />
+        <item itemvalue="JUnit.FullName.fullName" />
+        <item itemvalue="JUnit.FullName" />
+        <item itemvalue="JUnit.CustomerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,7 +174,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hw1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -69,10 +198,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial hw1 commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1223" height="250" key="GridCell.Tab.0.bottom" timestamp="1601213067455">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1223" height="250" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1601213067455" />
+    <state width="1223" height="250" key="GridCell.Tab.0.center" timestamp="1601213067454">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1223" height="250" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1601213067454" />
+    <state width="1223" height="250" key="GridCell.Tab.0.left" timestamp="1601213067453">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1223" height="250" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1601213067453" />
+    <state width="1223" height="250" key="GridCell.Tab.0.right" timestamp="1601213067454">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state width="1223" height="250" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1601213067454" />
+    <state x="237" y="152" key="SettingsEditor" timestamp="1601209494127">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="237" y="152" key="SettingsEditor/0.23.1680.976@0.23.1680.976" timestamp="1601209494127" />
+    <state x="335" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601023631149">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="335" y="253" key="Vcs.Push.Dialog.v2/0.23.1680.976@0.23.1680.976" timestamp="1601023631149" />
+    <state x="432" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601210179929">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="432" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.976@0.23.1680.976" timestamp="1601210179929" />
     <state x="533" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601023429068">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
     <state x="533" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.976@0.23.1680.976" timestamp="1601023429068" />
+    <state x="514" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601212746073">
+      <screen x="0" y="23" width="1680" height="976" />
+    </state>
+    <state x="514" y="294" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.976@0.23.1680.976" timestamp="1601212746073" />
     <state x="530" y="409" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601023363220">
       <screen x="0" y="23" width="1680" height="976" />
     </state>
